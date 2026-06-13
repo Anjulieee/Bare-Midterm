@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 header {
@@ -13,7 +15,7 @@ header {
     margin-bottom: 50px;
 }
 .logo {
-    font-family: Georgia, Times, 'Times New Roman', serif;
+
     font-size: 24px;
     font-weight: 550;
     letter-spacing: 3px;
@@ -46,7 +48,7 @@ main h1 {
     letter-spacing: 4px;
     text-transform: uppercase;
     margin-bottom: 15px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+
     font-weight: 400;
     font-style: italic;
 }
@@ -78,7 +80,7 @@ section {
 .product-view {
     grid-area: feature;
     text-align: center;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+
     font-weight: 400;
     font-size: 25px;
     letter-spacing: 4px;
@@ -134,7 +136,7 @@ footer a {
     min-height: 55dvh;
 }
 .about h2 {
-    font-family: Georgia, Times, 'Times New Roman', serif;
+
     font-weight: 400;
     font-size: 25px;
     margin-left: 10%;
