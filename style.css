@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -13,9 +16,10 @@ header {
     padding: 30px 10%;
     width: 100%;
     margin-bottom: 50px;
+    height: 100px;
 }
 .logo {
-
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
     font-weight: 550;
     letter-spacing: 3px;
@@ -48,7 +52,7 @@ main h1 {
     letter-spacing: 4px;
     text-transform: uppercase;
     margin-bottom: 15px;
-
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: 400;
     font-style: italic;
 }
@@ -76,11 +80,12 @@ section {
     "feature feature feature";
     grid-template-columns: repeat(3,1fr);
     gap: 35px;
+    flex-grow: 1;
 }
 .product-view {
     grid-area: feature;
     text-align: center;
-
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: 400;
     font-size: 25px;
     letter-spacing: 4px;
@@ -119,11 +124,13 @@ footer {
     width: 100%;
     margin-top: 40px;
     text-align: center;
-    background-color: #F1ECE4;
+    background-color: #efede8;
     font-size: 15px;
     color: #8C8275;
     padding-top: 20px;
     padding-bottom: 10px;
+    height: 100px;
+    justify-self: e;
 }
 footer a {
     display: inline-block;
@@ -134,9 +141,10 @@ footer a {
 
 .about {
     min-height: 55dvh;
+    flex-grow: 1;
 }
 .about h2 {
-
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: 400;
     font-size: 25px;
     margin-left: 10%;
@@ -150,6 +158,7 @@ footer a {
 .contact-block {
     margin: 0 10%;
     min-height: 60dvh;
+    flex-grow: 1;
 }
 .contact {
     font-family: Arial, Helvetica, sans-serif;
@@ -170,4 +179,8 @@ footer a {
         display: flex;
         flex-direction: column;
     }
+    nav{
+        flex-direction: column;
+    }
+    
 }
